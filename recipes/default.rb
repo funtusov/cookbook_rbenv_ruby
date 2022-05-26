@@ -14,4 +14,5 @@ end
 
 execute 'install latest ruby' do
   command 'rbenv install $(rbenv install -l | grep -v - | tail -1)'
+  returns [0, 1]
 end
