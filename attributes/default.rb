@@ -1,0 +1,1 @@
+default['rbenv_ruby']['ruby_version'] = 'latest'
